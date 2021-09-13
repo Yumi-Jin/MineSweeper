@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=createTemplate
+comment0.text=\r\n\ Holds\ methods\ used\ to\ generate\ a\ random\ unique\ template\ each\ game\r\n\r\n\ @author\ Yumi\ Jin\r\n\ @version\ 6-5-18\r\n
+comment1.params=bomb\ row\ col
+comment1.target=Tile[]\ genTemplate(int,\ int,\ int)
+comment2.params=bombs\ r\ c
+comment2.target=int[]\ genBombs(int,\ int,\ int)
+comment2.text=\r\n\ Will\ generate\ unique\ random\ coordinates\ for\ each\ bomb\ and\ store\ them\ in\ an\ array\r\n\ \r\n\ @param\ \ number\ of\ bombs,\ and\ dimensions\ of\ tiles\ \r\n\ @return\ the\ 2d\ array\ filled\ with\ bombs\ coordinates\r\n
+comment3.params=coordinates\ r\ c
+comment3.target=java.util.ArrayList\ getRadius(int,\ int,\ int)
+comment3.text=\r\n\ Will\ return\ each\ Tile\ coordinates\ that\ are\ in\ the\ radius\ of\ the\ tile\r\n\r\n\ @param\ coordinates\ -\ Ranging\ from\ 0\ to\ (r*c\ -\ 1),\ holds\ the\ value\ of\ a\ single\ number\ that\ represents\ \r\n\ a\ single\ Tile/Button\r\n\ @param\ r\ -\ the\ number\ of\ rows\ in\ the\ template\r\n\ @param\ c\ -\ the\ number\ of\ columns\ in\ the\ template\r\n\ \r\n\ @return\ ArrayList<Integer>\ types\ -\ the\ coordinates\ of\ each\ Tile\ surrounding\ the\ coordinates\ given\r\n
+numComments=4

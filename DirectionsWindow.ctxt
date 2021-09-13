@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DirectionsWindow
+comment0.text=\r\n\ Gets\ User\ Input\ to\ determine\ if\ user\ wants\ to\ look\ at\ the\ tutorial\ or\ play\ the\ game\ immidiently\r\n\r\n\ @author\ Yumi\ Jin\r\n\ @version\ 6-5-18\r\n
+comment1.params=
+comment1.target=DirectionsWindow()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ DirectionsWindow\r\n
+numComments=2

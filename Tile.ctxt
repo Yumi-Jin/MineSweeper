@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Tile
+comment0.text=\r\n\ Tile\ object\ that\ stores\ the\ value\ of\ a\ single\ tile\r\n\ Each\ tile\ object\ has\ a\ value\ of\ either\ a\ bomb,\ empty\ tile,\ or\ a\ number\ tile\r\n\ As\ long\ as\ the\ tile\ isn't\ revealed\ in\ the\ game\ window,\ it\ could\ be\ a\ flag\ tile\ \r\n\ (Checker\ for\ it\ not\ being\ revealed\ is\ in\ other\ classes)\r\n\r\n\ @author\ Yumi\ Jin\r\n\ @version\ 6-5-18\r\n
+comment1.params=
+comment1.target=int\ getType()
+comment1.text=\r\n\ Returns\ the\ type\ of\ the\ current\ tile\r\n\r\n\ @return\ type\ -\ the\ type\ of\ the\ tile,\ 0\ for\ blank,\ 1-8\ for\ it's\ corresponding\ number\ and\ 9\ for\ a\ bomb\r\n
+comment2.params=y
+comment2.target=void\ setType(int)
+comment2.text=\r\n\ Sets\ the\ type\ of\ the\ current\ tile\r\n\ Used\ to\ set\ up\ the\ template\ rather\ than\ in\ game\r\n\r\n\ @param\ y\ -\ the\ value\ it\ is\ going\ to\ be\ assigned\r\n
+comment3.params=
+comment3.target=java.lang.String\ getImage()
+comment3.text=\r\n\ Returns\ the\ name\ of\ the\ image\ as\ a\ string\ of\ a\ Tile\ type\r\n\r\n\ @return\ typeButtons[type]\ -\ the\ name\ of\ the\ image\ that\ is\ corresponding\ to\ the\ type\ of\ Tile\r\n
+comment4.params=b
+comment4.target=void\ setFlag(boolean)
+comment4.text=\r\n\ Method\ setFlag\r\n\r\n\ @param\ b\ A\ parameter\r\n
+comment5.params=
+comment5.target=boolean\ checkFlag()
+numComments=6
